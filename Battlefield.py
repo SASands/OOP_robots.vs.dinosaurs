@@ -1,8 +1,7 @@
 from Herd import Herd
 from Fleet import Fleet
-from Herd import Herd
 
-class Batttlefield:
+class Battlefield:
     def __init__(self):
         self.herd = Herd
         self.fleet = Fleet

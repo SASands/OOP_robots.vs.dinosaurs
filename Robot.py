@@ -8,6 +8,10 @@ class Robot():
         self.name = ""
         self.robot_health = 100
         self.robot_weapon = Weapon
+        pass
 
-    def attack(self, dinosaur):
-        pass    
+    def attack(self, Dinosaur):
+        Dinosaur = Dinosaur
+        pass
+
+        

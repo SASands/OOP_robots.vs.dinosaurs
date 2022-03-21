@@ -14,15 +14,18 @@
 
 # 1. Create a folder for your project, then create a GitHub repository for the project.
 
-# 2. Clone down the repository to your computer and put the invisible .git folder inside your project folder (as well as the .gitignore and README). Make an initial commit.
+# 2. Clone down the repository to your computer and put the invisible .git folder inside your project folder (as well as the .gitignore and README). 
+    # Make an initial commit.
 
 # 3. Create a new file for each class on the UML, as well as a main.py file that will serve as the entry point of your application.
 
-# 4. Begin working on the user stories by filling in your classes from smallest to large. Begin with the Weapon class, then move on to the Robot class, then the Dinosaur class.
+# 4. Begin working on the user stories by filling in your classes from smallest to large. Begin with the Weapon class, then move on to the Robot class, 
+    # then the Dinosaur class.
 
 # 5. Once those classes are tested, move on to the Herd and Fleet classes (these will look very similar once they are done!)
 
-# 6. Finally, fill out the methods for your battle logic in the Battlefield class. You will only need to import the Fleet and Herd classes into the Battlefield class.
+# 6. Finally, fill out the methods for your battle logic in the Battlefield class. You will only need to import the Fleet and Herd classes into the
+    #  Battlefield class.
 
 # 7. You will run the game by creating an object from the Battlefield class inside of main.py and calling the run_game method!
 
@@ -31,9 +34,12 @@
 # Please see the Project Walkthrough – Robots vs. Dinosaurs video for an idea of how the final product will look!
 
 
-from Battlefield import Batttlefield
+from Battlefield import Battlefield
 
-lets_fight = Batttlefield()
+lets_fight = Battlefield() 
+lets_fight.run_game() #probably going in battlefield class
+
+
 
 
 
