@@ -31,5 +31,10 @@
 # Please see the Project Walkthrough – Robots vs. Dinosaurs video for an idea of how the final product will look!
 
 
+from Battlefield import Batttlefield
+
+lets_fight = Batttlefield()
+
+
 
 
