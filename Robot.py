@@ -10,7 +10,9 @@ class Robot():
         self.robot_weapon = Weapon("Blaster", 25)
         
 
-    def attack(self, Dinosaur):
-        Dinosaur = Dinosaur
+    def attack(self, dinosaur):
+        dinosaur.health_level -= self.robot_weapon.attack_power
+        print(self.robot_health)
+  
 
         

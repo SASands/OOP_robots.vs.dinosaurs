@@ -10,7 +10,8 @@ class Dinosaur:
         self.health_level = 250
 
     def attack(self, robot):
-        #if the robot attacks a dinosaur decrement its hit power from opponents health (vice versa)
-        # if self.attack_power 
-        self.robot = robot
+        robot.robot_health -= self.attack_power
+        print(self.health_level)
+
+
 
