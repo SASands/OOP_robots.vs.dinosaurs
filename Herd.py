@@ -1,11 +1,15 @@
 from Dinosaur import Dinosaur
 
 class Herd:
-    def __inint__(self):
-        self.Dinosaur = [Dinosaur()]
+    def __init__(self):
+        self.dinosaur = []
         pass
 
     def create_herd(self):
-        self.create_herd = self.dinosaur
-        pass
+        dino1 = Dinosaur("Billy", 35)
+        dino2 = Dinosaur("Bobby", 20)
+        dino3 = Dinosaur("Bradly", 25)
+        self.dinosaur.append(dino1)
+        self.dinosaur.append(dino2)
+        self.dinosaur.append(dino3)
 

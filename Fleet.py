@@ -4,9 +4,13 @@ from Robot import Robot
 
 class Fleet:
     def __init__(self):
-        self.robots = [Robot()]
+        self.robots = []
         pass
 
-    def create_fleet(self):
-        self.create_fleet = self.robots
-        pass
+    def create_fleet(self):  
+        robot1 = Robot("Cyburn")
+        robot2 = Robot("Metally")
+        robot3 = Robot("Links")
+        self.robots.append(robot1)
+        self.robots.append(robot2)
+        self.robots.append(robot3)

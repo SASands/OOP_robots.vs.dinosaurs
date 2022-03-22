@@ -1,17 +1,16 @@
-from inspect import _void
+
 from Weapon import Weapon
 
 
 
 class Robot():
     def __init__(self, name):
-        self.name = ""
-        self.robot_health = 100
-        self.robot_weapon = Weapon
-        pass
+        self.name = name
+        self.robot_health = 150
+        self.robot_weapon = Weapon("Blaster", 25)
+        
 
     def attack(self, Dinosaur):
         Dinosaur = Dinosaur
-        pass
 
         

@@ -36,8 +36,13 @@
 
 from Battlefield import Battlefield
 
+
 lets_fight = Battlefield() 
-lets_fight.run_game() #probably going in battlefield class
+lets_fight.battle()
+# lets_fight.run_battle() #probably going in battlefield class
+
+
+
 
 
 
