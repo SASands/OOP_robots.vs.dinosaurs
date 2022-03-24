@@ -11,7 +11,8 @@ class Dinosaur:
 
     def attack(self, robot):
         robot.robot_health -= self.attack_power
-        print(self.health_level)
+        print(robot.robot_health -= self.attack_power)
+        
 
 
 
